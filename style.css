@@ -50,7 +50,7 @@ body * {
   padding-top: 52px;
 }
 
-header {
+#logos {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,7 +58,7 @@ header {
   text-align: center;
 }
 
-header h1 {
+#logos h1 {
   padding-top: 32px;
   color: #f7dd43;
   font-family: "Papyrus";

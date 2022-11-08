@@ -23,12 +23,22 @@
       </header>
       <main id="cards"></main>
       <div class="change-bg">
-        <button onClick="changeBackground('blue')">Blue</button>
-        <button onClick="changeBackground('red')">Red</button>
-        <button onClick="changeBackground('green')">Green</button>
-        <button onClick="changeBackground('yellow')">Yellow</button>
+        <p class="bg-buttons-title">Cor do Tema</p>
+        <div class="bg-buttons">
+          <button class="bg-button" id="bg-yellow" onClick="changeBackground('yellow')">
+            Amarelo
+          </button>
+          <button class="bg-button" id="bg-red" onClick="changeBackground('red')">
+            Vermelho
+          </button>
+          <button class="bg-button" id="bg-blue" onClick="changeBackground('blue')">
+            Azul
+          </button>
+          <button class="bg-button" id="bg-green" onClick="changeBackground('green')">
+            Verde
+          </button>
+        </div>
       </div>
-      
     </div>
     <script src="./main.js"></script>
   </body>

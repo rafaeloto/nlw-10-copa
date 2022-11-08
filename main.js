@@ -1,3 +1,17 @@
+function changeBackground(color) {
+  const container = document.querySelector("#container")
+  switch (color) {
+    case "yellow":
+      container.className = ""
+      break
+    case "blue":
+    case "red":
+    case "green":
+      container.className = color
+      break
+  }
+}
+
 function createGame(player1, hour, player2) {
   return `
     <li>
